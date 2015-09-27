@@ -1,6 +1,6 @@
 /*global console, $, callBackWithData, FB, hackers, groups*/
 
-var FB_ID,
+var FB_ID, FBName,
     subgroups;
 
 function getGroupLinks() {
@@ -32,9 +32,10 @@ function getGroupLinks() {
 function getGroupDataFromID() {
     'use strict';
     $(document).ready(function () {
-        $.getJSON('hh_recommend.json', function (data) {
+        $.getJSON('suggested_groups.json', function (data) {
             if (data.hasOwnProperty(FB_ID)) {
                 subgroups = data[FB_ID];
+                console.log(subgroups);
                 getGroupLinks();
             }
         });
@@ -45,6 +46,7 @@ function grabFB_ID() {
     "use strict";
 	FB.getLoginStatus(function (response) {
         FB_ID = response.authResponse.userID;
+        console.log(FB_ID);
         getGroupDataFromID();
     });
 }
