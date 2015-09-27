@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<HTML>
+    <HEAD>
+        <meta charset="UTF-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    </HEAD>
+    <BODY>
+        <fb:login-button scope="public_profile,email" onlogin="grabFB_ID();">
+            womp
+        </fb:login-button>
+        
+        <div id="recommendations"></div>
+        
+        <script type="text/javascript" src="groups.json"></script>
+        <script type="text/javascript" src="hh_recommend.json"></script>
+        <script type="text/javascript" src="subgroup_finder.js"></script>
+        <script type="text/javascript" src="fb_oauth.js"></script>
+    </BODY>
+</HTML>
