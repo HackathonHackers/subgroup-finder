@@ -2,12 +2,21 @@
 <HTML>
     <HEAD>
         <meta charset="UTF-8">
+        <title>Subgroup Recommender</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <link rel="stylesheet" href="subgroup_finder.css"/>
     </HEAD>
     <BODY>
-        <fb:login-button scope="public_profile,email" onlogin="grabFB_ID();">
-            womp
-        </fb:login-button>
+        <div id="click-here">
+            <div class="text">Click the button to find out what groups we recommend for you!</div>
+            <div class="button">
+                <fb:login-button scope="public_profile,email" onlogin="grabFB_ID();">
+                    Click Here!
+                </fb:login-button>
+            </div>
+            <div class="text">All recommendations are based off of your past activity in HH.</div>
+        </div>
         
         <div id="recommendations"></div>
         

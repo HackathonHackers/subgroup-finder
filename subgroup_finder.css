@@ -1,0 +1,20 @@
+#click-here {
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    height: 30%;
+    width: 50%;
+}
+
+.button {
+    position: relative;
+    left: 30%;
+}
+
+#recommendations {
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    height: 40%;
+    width: 10%;
+}
