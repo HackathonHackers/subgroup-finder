@@ -1,4 +1,4 @@
-[
+{
     "groups": {
         "HH Job Listings": "http://hh.gd/jobs",
         "HH Free Stuff": "http://hh.gd/freestuff",
@@ -85,4 +85,4 @@
         "Latino Hackers": "http://hh.gd/latino",
         "Upcoming Hackathons": "http://hh.gd/events"
     }
-]
+}
