@@ -1,7 +1,7 @@
 /*global console, $, callBackWithData, FB, hackers, groups*/
 
 var FB_ID, FBName,
-    subgroups;
+    HH_ID, subgroups;
 
 function getGroupLinks() {
     'use strict';
@@ -16,7 +16,7 @@ function getGroupLinks() {
                         $('#recommendations').append(
                             "<a href='" + data[rec_group] + "'>"
                                 + rec_group
-                                + "</a>"
+                                + "</a><br>"
                         );
                     } else {
                         $('#recommendations').append(
@@ -33,10 +33,23 @@ function getGroupDataFromID() {
     'use strict';
     $(document).ready(function () {
         $.getJSON('suggested_groups.json', function (data) {
-            if (data.hasOwnProperty(FB_ID)) {
-                subgroups = data[FB_ID];
+            if (data.hasOwnProperty(HH_ID)) {
+                subgroups = data[HH_ID];
                 console.log(subgroups);
                 getGroupLinks();
+            }
+        });
+    });
+}
+
+function getGroupID() {
+    'use strict';
+    $(document).ready(function () {
+        $.getJSON('names_ids.json', function (data) {
+            if (data.hasOwnProperty(FBName)) {
+                HH_ID = data[FBName][0];
+                console.log(HH_ID);
+                getGroupDataFromID();
             }
         });
     });
@@ -46,7 +59,15 @@ function grabFB_ID() {
     "use strict";
 	FB.getLoginStatus(function (response) {
         FB_ID = response.authResponse.userID;
-        console.log(FB_ID);
-        getGroupDataFromID();
+        FB.api(
+            '/' + FB_ID.toString(),
+            'GET',
+            {},
+            function (response2) {
+                FBName = response2.name;
+                console.log(FBName);
+                getGroupID();
+            }
+        );
     });
 }
