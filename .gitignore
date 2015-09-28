@@ -1,2 +1,4 @@
 # Ignore all my stupid python files
 *.py
+
+names_ids.json
