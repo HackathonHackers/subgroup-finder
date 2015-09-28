@@ -1,86 +1,472 @@
 {
-    "HH Job Listings": "http://hh.gd/jobs",
-    "HH Free Stuff": "http://hh.gd/freestuff",
-    "HH Blog Posts": "http://hh.gd/blogposts",
-    "HH Book Club": "http://hh.gd/bookclub",
-    "HH Code Reviews": "http://hh.gd/codereview",
-    "HH Coding": "http://hh.gd/coding",
-    "HH Connect": "http://hh.gd/connect",
-    "HH Constructive Debates": "http://hh.gd/debate",
-    "HH CTF": "http://hh.gd/ctf",
-    "HH Data Hackers": "http://hh.gd/data",
-    "HH Design": "http://hh.gd/design",
-    "HH Education": "http://hh.gd/edu",
-    "HH Freelance": "http://hh.gd/freelance",
-    "HH Free Stuff": "http://hh.gd/freestuff",
-    "HH Hardware": "http://hh.gd/hardware",
-    "HH Housing": "http://hh.gd/housing",
-    "HH Information Security": "http://hh.gd/infosec",
-    "HH Interview Prep": "http://hh.gd/interviewprep",
-    "HH Meta": "http://hh.gd/meta",
-    "HH Product Launch": "http://hh.gd/launch",
-    "HH Skillshare": "http://hh.gd/skillshare",
-    "HH Share Your Projects": "http://hh.gd/shareyourproject",
-    "HH Throw a Hackathon": "http://hh.gd/throwahack",
-    "HH Virtual Reality": "http://hh.gd/vr",
-    "HH Websites & Resumes": "http://hh.gd/resumes",
-    "HH What Are You Working On?": "http://hh.gd/waywo",
-    "HH Asia": "https://www.facebook.com/groups/hackathonhackersasia/",
-    "HH Canada Eh?": "http://hh.gd/canada",
-    "HH California": "http://hh.gd/cali",
-    "HH European Union": "http://hh.gd/europe",
-    "HH Midwest": "http://hh.gd/midwest",
-    "HH NYC": "https://www.facebook.com/groups/392783994231221/",
-    "HH Seattle": "http://hh.gd/seattle",
-    "HH South": "https://www.facebook.com/groups/960760090617712/",
-    "HH λ: (functional programming)": "http://hh.gd/lambda",
-    "HH Lisp": "https://www.facebook.com/groups/760851353987620/",
-    "HH Logic programming": "https://www.facebook.com/groups/hhlogic/",
-    "HH JavaScript": "https://www.facebook.com/groups/719335188115212/",
-    "HH PHP": "https://www.facebook.com/groups/389297074552662/",
-    "HH C": "http://hh.gd/c",
-    "HH Perl": "https://www.facebook.com/groups/hhperl/",
-    "HH Python": "http://hh.gd/python",
-    "HH Ruby": "http://hh.gd/ruby",
-    "HH Rust": "https://www.facebook.com/groups/hhrust/",
-    "HH Gophers": "https://www.facebook.com/groups/hhgophers/",
-    "HH Matlab/GNU Octave": "https://www.facebook.com/groups/hhmatlab/",
-    "HH R": "https://www.facebook.com/groups/hhrprog/",
-    "HH Tcl": "https://www.facebook.com/groups/hhtcl/",
-    "HH Webdev": "http://hh.gd/webdev",
-    "HH iOS": "https://www.facebook.com/groups/hhios/",
-    "HH Android": "https://www.facebook.com/groups/HHAndroid/",
-    "HH Linux Users": "https://www.facebook.com/groups/582691025194939/",
-    "HH FSF/GNU": "https://www.facebook.com/groups/530926930377277/",
-    "HH Church of Emacs": "https://www.facebook.com/groups/hhemacs/",
-    "HH Vim": "https://www.facebook.com/groups/hhvim/",
-    "HH Networking": "https://www.facebook.com/groups/hhnetworking/",
-    "HH Semantic Web": "https://www.facebook.com/groups/hhsemantic/",
-    "HH Scientific Computing": "https://www.facebook.com/groups/hhscientificcomputing/",
-    "HH Seeking Collaborators": "https://www.facebook.com/groups/517926818351073/",
-    "HH Hack Sleep": "https://www.facebook.com/groups/283617808512688/",
-    "HH Futurism": "https://www.facebook.com/groups/568175936642925/",
-    "HH Stocks": "https://www.facebook.com/groups/1571495513082515/",
-    "HH Couch Surfing": "https://www.facebook.com/groups/726089960809105/",
-    "HH Hacking Hackathons": "https://www.facebook.com/groups/857498367601915/",
-    "HH Find Teammates": "https://www.facebook.com/groups/454867721317036/",
-    "HH Science": "https://www.facebook.com/groups/hhscience/",
-    "HH Wordplay": "https://www.facebook.com/groups/hhwordplay/",
-    "HH Startups": "https://www.facebook.com/groups/1557032894516446/",
-    "HH 3D": "https://www.facebook.com/groups/1406844469612016/",
-    "HH Circletwerk": "http://hh.gd/circle",
-    "HH Snackathon Snackers": "http://hh.gd/snackers",
-    "HH Stackathon Stackers": "http://hh.gd/stackers",
-    "HH Hacker Problems": "http://http://hh.gd/problems",
-    "Real Singles of HHCT": "http://hh.gd/singles",
-    "HH Jokes": "https://www.facebook.com/groups/hhjokes/",
-    "HH What Are You Twerking On?": "https://www.facebook.com/groups/hhtwerk/",
-    "HH Bæsed Andy": "https://www.facebook.com/groups/346246492209784/",
-    "Wankathon Wankers": "https://www.facebook.com/groups/WankWank/",
-    "WW What Are You Wanking On?": "https://www.facebook.com/groups/wwwaywo/",
-    "High School Hackers": "http://hh.gd/highschool",
-    "HS Offers": "http://hh.gd/hsoffers",
-    "Ladies Storm Hackathons": "http://hh.gd/ladies",
-    "Latino Hackers": "http://hh.gd/latino",
-    "Upcoming Hackathons": "http://hh.gd/events"
+	"HH Lisp": {
+		"link": "https://www.facebook.com/groups/760851353987620/",
+		"description": "This group is about the most elegant programming language in existence.",
+		"cover": ""
+	},
+	"HH Interview Prep": {
+		"link": "http://hh.gd/interviewprep",
+		"description": "This group was created to help Hackers prepare and ace their technical interviews.\nAs we all know, technical interviews can be frustrating to most Hackers. The idea is to post recent questions asked and discuss their solution. We can also share our experiences interviewing at different companies.\nWe should also aim to hold recurring Google Hangout sessions to review and quiz each other with whiteboard questions.\nFeel free to post anything pertaining to technical interviews.",
+		"cover": "https://scontent-iad3-1.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/10959464_4792251919248_5522313976608116690_n.jpg?oh=2cf1b34043cc5bfef8713251e1067605&oe=5699C102"
+	},
+	"HH Share Your Projects": {
+		"link": "http://hh.gd/shareyourproject",
+		"description": "",
+		"cover": ""
+	},
+	"HH Semantic Web": {
+		"link": "https://www.facebook.com/groups/hhsemantic/",
+		"description": "All about semantic web, linking open data, and schemas",
+		"cover": "https://scontent-iad3-1.xx.fbcdn.net/hphotos-ash2/v/t1.0-9/10801819_10205189543522174_4622827001421752176_n.jpg?oh=c87d572c5a032f7e4f1a84c44e200780&oe=565F338B"
+	},
+	"HH 3D": {
+		"link": "https://www.facebook.com/groups/1406844469612016/",
+		"description": "A subgroup of Hackathon Hackers devoted to all things with length, width, and height. 3D printing, design, modeling, animation, art, software, hardware, and related topics.",
+		"cover": "https://scontent-iad3-1.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10942451_429712907186115_6688002781995529881_n.jpg?oh=572a337b5bb24cf462efa3deee6102ca&oe=56A5BC2A"
+	},
+	"HH Jokes": {
+		"link": "https://www.facebook.com/groups/hhjokes/",
+		"description": "Jokes subcategory of Hackathon Hackers. Swag",
+		"cover": ""
+	},
+	"HH Find Teammates": {
+		"link": "https://www.facebook.com/groups/454867721317036/",
+		"description": "Need teammates for Hackathons? Post here!",
+		"cover": "https://scontent-iad3-1.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10563154_4420487647944_8284596085104507123_n.jpg?oh=81df85721081888e6e389c22996cab8c&oe=56A3691C"
+	},
+	"HH Gophers": {
+		"link": "https://www.facebook.com/groups/hhgophers/",
+		"description": "",
+		"cover": ""
+	},
+	"HH λ": {
+		"link": "http://hh.gd/lambda",
+		"description": "",
+		"cover": ""
+	},
+	"HH Free Stuff": {
+		"link": "http://hh.gd/freestuff",
+		"description": "",
+		"cover": ""
+	},
+	"Real Singles of HHCT": {
+		"link": "http://hh.gd/singles",
+		"description": "",
+		"cover": ""
+	},
+	"HH Circletwerk": {
+		"link": "http://hh.gd/circle",
+		"description": "",
+		"cover": ""
+	},
+	"HH Science": {
+		"link": "https://www.facebook.com/groups/hhscience/",
+		"description": "",
+		"cover": ""
+	},
+	"HH PHP": {
+		"link": "https://www.facebook.com/groups/389297074552662/",
+		"description": "",
+		"cover": ""
+	},
+	"HH Job Listings": {
+		"link": "http://hh.gd/jobs",
+		"description": "",
+		"cover": ""
+	},
+	"HH Linux Users": {
+		"link": "https://www.facebook.com/groups/582691025194939/",
+		"description": "",
+		"cover": ""
+	},
+	"HH Book Club": {
+		"link": "http://hh.gd/bookclub",
+		"description": "",
+		"cover": ""
+	},
+	"HS Offers": {
+		"link": "http://hh.gd/hsoffers",
+		"description": "",
+		"cover": ""
+	},
+	"HH Networking": {
+		"link": "https://www.facebook.com/groups/hhnetworking/",
+		"description": "",
+		"cover": ""
+	},
+	"Stackathon Stackers": {
+		"link": "http://hh.gd/stackers",
+		"description": "",
+		"cover": ""
+	},
+	"HH FSF/GNU": {
+		"link": "https://www.facebook.com/groups/530926930377277/",
+		"description": "",
+		"cover": ""
+	},
+	"HH Freelance": {
+		"link": "http://hh.gd/freelance",
+		"description": "",
+		"cover": ""
+	},
+	"HH Seeking Collaborators": {
+		"link": "https://www.facebook.com/groups/517926818351073/",
+		"description": "",
+		"cover": ""
+	},
+	"Cali Hackers": {
+		"link": "http://hh.gd/cali",
+		"description": "",
+		"cover": ""
+	},
+	"HH Throw a Hackathon": {
+		"link": "http://hh.gd/throwahack",
+		"description": "",
+		"cover": ""
+	},
+	"HH Data Hackers": {
+		"link": "http://hh.gd/data",
+		"description": "",
+		"cover": ""
+	},
+	"HH VR": {
+		"link": "http://hh.gd/vr",
+		"description": "",
+		"cover": ""
+	},
+	"HH Hacker Problems": {
+		"link": "http://http://hh.gd/problems",
+		"description": "",
+		"cover": ""
+	},
+	"HH Design": {
+		"link": "http://hh.gd/design",
+		"description": "",
+		"cover": ""
+	},
+	"HH Skillshare": {
+		"link": "http://hh.gd/skillshare",
+		"description": "",
+		"cover": ""
+	},
+	"HH Wordplay": {
+		"link": "https://www.facebook.com/groups/hhwordplay/",
+		"description": "",
+		"cover": ""
+	},
+	"HH Ruby": {
+		"link": "http://hh.gd/ruby",
+		"description": "",
+		"cover": ""
+	},
+	"HH Canada Eh?": {
+		"link": "http://hh.gd/canada",
+		"description": "",
+		"cover": ""
+	},
+	"HH Couch Surfing": {
+		"link": "https://www.facebook.com/groups/726089960809105/",
+		"description": "",
+		"cover": ""
+	},
+	"HH Coding": {
+		"link": "http://hh.gd/coding",
+		"description": "",
+		"cover": ""
+	},
+	"HH Snackathon Snackers": {
+		"link": "http://hh.gd/snackers",
+		"description": "",
+		"cover": ""
+	},
+	"HH Church of Emacs": {
+		"link": "https://www.facebook.com/groups/hhemacs/",
+		"description": "",
+		"cover": ""
+	},
+	"HH Hack Sleep": {
+		"link": "https://www.facebook.com/groups/283617808512688/",
+		"description": "",
+		"cover": ""
+	},
+	"HH Matlab/GNU Octave": {
+		"link": "https://www.facebook.com/groups/hhmatlab/",
+		"description": "",
+		"cover": ""
+	},
+	"HH Product Launch": {
+		"link": "http://hh.gd/launch",
+		"description": "",
+		"cover": ""
+	},
+	"HH Javascript": {
+		"link": "https://www.facebook.com/groups/719335188115212/",
+		"description": "",
+		"cover": ""
+	},
+	"HH Bæsed Andy": {
+		"link": "https://www.facebook.com/groups/346246492209784/",
+		"description": "",
+		"cover": ""
+	},
+	"HH Scientific Computing": {
+		"link": "https://www.facebook.com/groups/hhscientificcomputing/",
+		"description": "",
+		"cover": ""
+	},
+	"Upcoming Hackathons": {
+		"link": "http://hh.gd/events",
+		"description": "",
+		"cover": ""
+	},
+	"HH Meta": {
+		"link": "http://hh.gd/meta",
+		"description": "",
+		"cover": ""
+	},
+	"HH Logic programming": {
+		"link": "https://www.facebook.com/groups/hhlogic/",
+		"description": "",
+		"cover": ""
+	},
+	"HH Webdev": {
+		"link": "http://hh.gd/webdev",
+		"description": "",
+		"cover": ""
+	},
+	"HH Tcl": {
+		"link": "https://www.facebook.com/groups/hhtcl/",
+		"description": "",
+		"cover": ""
+	},
+	"HH Connect": {
+		"link": "http://hh.gd/connect",
+		"description": "",
+		"cover": ""
+	},
+	"HH What Are You Working On?": {
+		"link": "http://hh.gd/waywo",
+		"description": "",
+		"cover": ""
+	},
+	"HH Information Security": {
+		"link": "http://hh.gd/infosec",
+		"description": "",
+		"cover": ""
+	},
+	"HH Rust": {
+		"link": "https://www.facebook.com/groups/hhrust/",
+		"description": "",
+		"cover": ""
+	},
+	"HH Constructive Debates": {
+		"link": "http://hh.gd/debate",
+		"description": "",
+		"cover": ""
+	},
+	"HH C": {
+		"link": "http://hh.gd/c",
+		"description": "",
+		"cover": ""
+	},
+	"HH R": {
+		"link": "https://www.facebook.com/groups/hhrprog/",
+		"description": "",
+		"cover": ""
+	},
+	"HH South": {
+		"link": "https://www.facebook.com/groups/960760090617712/",
+		"description": "",
+		"cover": ""
+	},
+	"HH Python": {
+		"link": "http://hh.gd/python",
+		"description": "",
+		"cover": ""
+	},
+	"HH iOS": {
+		"link": "https://www.facebook.com/groups/hhios/",
+		"description": "",
+		"cover": ""
+	},
+	"HH Code Reviews": {
+		"link": "http://hh.gd/codereview",
+		"description": "",
+		"cover": ""
+	},
+	"HH Perl": {
+		"link": "https://www.facebook.com/groups/hhperl/",
+		"description": "",
+		"cover": ""
+	},
+	"HH Vim": {
+		"link": "https://www.facebook.com/groups/hhvim/",
+		"description": "",
+		"cover": ""
+	},
+	"HH What Are You Twerking On?": {
+		"link": "https://www.facebook.com/groups/hhtwerk/",
+		"description": "",
+		"cover": ""
+	},
+	"HH Blog Posts": {
+		"link": "http://hh.gd/blogposts",
+		"description": "",
+		"cover": ""
+	},
+	"Midwest Hackers": {
+		"link": "http://hh.gd/midwest",
+		"description": "",
+		"cover": ""
+	},
+	"HH Hardware Hackers": {
+		"link": "http://hh.gd/hardware",
+		"description": "",
+		"cover": ""
+	},
+	"HH Stocks": {
+		"link": "https://www.facebook.com/groups/1571495513082515/",
+		"description": "",
+		"cover": ""
+	},
+	"HH Websites and Resumes": {
+		"link": "http://hh.gd/resumes",
+		"description": "",
+		"cover": ""
+	},
+	"Seattle Hackers": {
+		"link": "http://hh.gd/seattle",
+		"description": "Hackers and Makers in Seattle.\nIf you want to make a post, please first consider if it's something that would be valuable to the community. Links to hackathons and blog posts/press about hackathons is heavily encouraged.\nPlease comment and join any conversation right away",
+		"cover": "https://scontent-iad3-1.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/10610725_10202451315592739_5316558011540477034_n.jpg?oh=d3cea07f7ead7887b08bd6757bfeae47&oe=5696478F"
+	},
+	"HH CTF": {
+		"link": "http://hh.gd/ctf",
+		"description": "",
+		"cover": ""
+	},
+	"HH Startups": {
+		"link": "https://www.facebook.com/groups/1557032894516446/",
+		"description": "",
+		"cover": ""
+	},
+	"High School Hackers": {
+		"link": "http://hh.gd/highschool",
+		"description": "",
+		"cover": ""
+	},
+	"HH Android": {
+		"link": "https://www.facebook.com/groups/HHAndroid/",
+		"description": "",
+		"cover": ""
+	},
+	"HH NYC": {
+		"link": "https://www.facebook.com/groups/392783994231221/",
+		"description": "",
+		"cover": ""
+	},
+	"HH EdTech": {
+		"link": "http://hh.gd/edu",
+		"description": "Lovers of Educational Technology!",
+		"cover": "https://scontent-iad3-1.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/10425482_10203504153629119_6397836212906948975_n.jpg?oh=b38568d1cdbff89e82c17c1d65919df9&oe=566011B4"
+	},
+	"Latin@ Hackers": {
+		"link": "http://hh.gd/latino",
+		"description": "",
+		"cover": ""
+	},
+	"Hackathon Hackers EU": {
+		"link": "http://hh.gd/europe",
+		"description": "",
+		"cover": ""
+	},
+	"HH Futurism": {
+		"link": "https://www.facebook.com/groups/568175936642925/",
+		"description": "",
+		"cover": ""
+	},
+	"HH Housing": {
+		"link": "http://hh.gd/housing",
+		"description": "",
+		"cover": ""
+	},
+	"Ladies Storm Hackathons": {
+		"link": "http://hh.gd/ladies",
+		"description": "",
+		"cover": ""
+	},
+	"Wankathon Wankers": {
+		"link": "https://www.facebook.com/groups/WankWank/",
+		"description": "",
+		"cover": ""
+	},
+	"HH Hacking Hackathons": {
+		"link": "https://www.facebook.com/groups/857498367601915/",
+		"description": "",
+		"cover": ""
+	},
+	"Hackathon Hackers Asia": {
+		"link": "http://hh.gd/asia",
+		"description": "",
+		"cover": ""
+	},
+	"WW What Are You Wanking On?": {
+		"link": "https://www.facebook.com/groups/wwwaywo/",
+		"description": "",
+		"cover": ""
+	},
+    "HH Systems Programming": {
+		"link": "https://www.facebook.com/groups/HHSysProgramming/",
+		"description": "For discussions on systems-level programming including operating systems, drivers, kernels, firmware, etc. as well generic programming in C, C++, Rust, as well as systems programming with Go such as containers and system tools.\nOh and Linux distro wars are welcome :)",
+		"cover": "https://scontent-iad3-1.xx.fbcdn.net/hphotos-xtf1/v/t1.0-9/11407064_10206913255935632_1592046570395357370_n.jpg?oh=9befffd2aeca0626bff2af070beec573&oe=5689C642"
+	},
+	"HH Texas": {
+		"link": "http://hh.gd/texas",
+		"description": "Hackathon Hackers in Texas! The second largest state, with a huge presence in all hackathons throughout the country.",
+		"cover": "https://scontent-iad3-1.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/10986835_10153557313958072_6281180628954997138_n.jpg?oh=3744828fbf308ddc768922cc0714e827&oe=56A8D087"
+	},
+	"HH Internet of Things": {
+		"link": "http://hh.gd/iot",
+		"description": "The best IoT community - A place to share news, discussions, projects and passion.",
+		"cover": "https://scontent-iad3-1.xx.fbcdn.net/hphotos-xpt1/v/t1.0-9/10881477_10153056555886329_5686534915969518171_n.jpg?oh=c47c52edac27ceba6a20304d7c6eb054&oe=568EB9A3"
+	},
+	"HH Music": {
+		"link": "http://hh.gd/music",
+		"description": "For all HH members who are interesting in hacking on music, or want to share music with other HH members!!!\nWill also hopefully help to clear the main page up a bit w/ fewer music related posts, so direct interested people here!",
+		"cover": "https://scontent-iad3-1.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/10984214_10203572443619096_2036542849464664404_n.jpg?oh=2227c6b6aa94cf274ec71efb996a7ab0&oe=56984DEC"
+	},
+	"HH Growthhacking": {
+		"link": "http://hh.gd/growth",
+		"description": "Hackathon Hackers | Growth Hacking Group\nGrowth Hacking is about combining technology, data and marketing all together to generate growth for both businesses and brands. We will discuss how to plan, develop and execute growth hacking campaigns to acquire more customers in a systematic, automated and scalable way.\nWe utilize technology to deploy highly effective campaigns with outside-the-box thinking. \nMarketing + Software Engineering + Data Science = Growth Engineering.",
+		"cover": "https://scontent-iad3-1.xx.fbcdn.net/hphotos-xat1/v/t1.0-9/10906450_10152711214234585_4080871572985419858_n.jpg?oh=82e0153ebc1cf5e3bf7d51fc49ce0986&oe=565D8E33"
+	},
+	"HH Africa": {
+		"link": "http://hh.gd/africa",
+		"description": "Welcome to HH Africa, the regional group of hackers in Nigeria, Kenya, South Africa, Ghana, Uganda, Tanzania, Cote D'Ivore, Morocco and the rest of Africa.\nHackathons are changing the way innovation happens in Africa and Africa should be at the core of taking advantage of taking this approach to fast -developed innovation to its zenith.",
+		"cover": "https://scontent-iad3-1.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/1395129_10152889897959568_1436080464982371502_n.jpg?oh=7fb9f8cc419730bb00c0e784210cae23&oe=56A641F6"
+	},
+	"HH MHacks": {
+		"link": "http://hh.gd/mhacks",
+		"description": "The active subgroup for future and current MHacks hackers.",
+		"cover": "https://scontent-iad3-1.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/11052453_10206942387537788_3197782116721196563_n.jpg?oh=1de145bf91583b6f26585b99e300b6ab&oe=569D5574"
+	},
+	"Hackathon Hackers South East Asia (SEA)": {
+		"link": "http://hh.gd/sea",
+		"description": "HH South East Asia (SEA) aims to unify all hackers around the south east Asian region so that we can share events about hackathons, startups and anything in general with each other.\nSouth East Asia is a region with 600 million people. I truly believe that South East Asia is the next big region for startups to scale and grow. With a population size that big, startups have the opportunity to scale and compete on the international scale.\nWe have Brunei, Cambodia, East Timor, Indonesia, Laos, Malaysia, Myanmmar, Philippines, Singapore, Thailand and Vietnam and together we make a very diverse and strong region for hackers and hustlers alike!",
+		"cover": "https://scontent-iad3-1.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/11407131_10204842721930257_1516965194790649027_n.jpg?oh=17a159f1f11324c4ef2b444997af435b&oe=5694F0D4"
+	},
+	"HH Social Good": {
+		"link": "http://hh.gd/sogood",
+		"description": "Tech is pushing forward the non-profit/social good sphere and enabling change on such a large scale, this is a space to talk about cool things already happening in the space and ideas/projects other HH have!",
+		"cover": "https://scontent-iad3-1.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/10888910_10152489606031143_3598746977775237304_n.jpg?oh=fc10678f3664eac1b181ba088fb912c2&oe=56A11C24"
+	},
+	"HH Internships": {
+		"link": "http://hh.gd/interns",
+		"description": "Post questions and opportunities for internships.",
+		"cover": "https://scontent-iad3-1.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/1780765_10152508423586938_6660972890334733334_n.jpg?oh=8f0e7c37e5b34caad35d0bee021ccffe&oe=568B75E9"
+	},
+	"HH FIRST + VEX": {
+		"link": "http://hh.gd/firstvex",
+		"description": "A HH group for members of the FIRST Robotics Competition (FRC, FTC, FLL, and Jr. FLL) and the Vex Robotics Competition.",
+		"cover": "https://scontent-iad3-1.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/522098_10203402356886175_1507689631092450372_n.jpg?oh=e59e2f65bfae9f6fbed26a69a131a835&oe=5696B2CC"
+	}
 }
