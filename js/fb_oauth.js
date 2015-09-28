@@ -1,4 +1,4 @@
-/*global console, testAPI, FB, $*/
+/*global console, FB, $*/
 
 window.fbAsyncInit = function () {
 	"use strict";

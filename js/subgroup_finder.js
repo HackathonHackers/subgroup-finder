@@ -20,7 +20,7 @@ function getGroupLinks() {
                         );
                     } else {
                         $('#recommendations').append(
-                            "<p>" + rec_group + "</p>"
+                            "<p>" + rec_group + "</p><br>"
                         );
                     }
                 }
@@ -35,8 +35,30 @@ function getGroupDataFromID() {
         $.getJSON('js/suggested_groups.json', function (data) {
             if (data.hasOwnProperty(HH_ID)) {
                 subgroups = data[HH_ID];
-                getGroupLinks();
+                if (subgroups.length() === 0) {
+                    $('#recommendations').append(
+                        "It looks like you're not active enough in the group"
+                            + " to get a suggestion! Our suggestions are based on"
+                            + " your activity (likes and comments) within HH and"
+                            + " all of its official public subgroups.<br>"
+                            + "Go make your mark in <a href='hh.gd/'>HH</a> and"
+                            + " try again some other time!"
+                    );
+                } else if (subgroups.length() < 5) {
+                    $('#recommendations').append(
+                        "It looks like you're not active enough in the group to "
+                            + " get all 5 suggestion! Our suggestions are based on"
+                            + " your activity (likes and comments) within HH and"
+                            + " all of its official public subgroups.<br>"
+                            + "Go make your mark in <a href='hh.gd/'>HH</a> and"
+                            + " try again some other time!"
+                    );
+                    getGroupLinks();
+                } else {
+                    getGroupLinks();
+                }
             }
+        
         });
     });
 }
